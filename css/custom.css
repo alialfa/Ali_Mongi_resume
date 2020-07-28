@@ -1,0 +1,51 @@
+.body {
+  background-color: rgb(255, 215, 188);
+}
+
+.sidebarIconSpace {
+  margin-right: 8px;
+}
+
+#index {
+  background-image: url("../assets/img/welcome/index3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: rgb(255, 215, 188);*/
+  opacity: 90%;
+  border-radius: 7px;
+  float: right;
+  color: black;
+  font-size: 20px;
+}
+
+#indexWelcome {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -520px;
+  font-size: 20px;
+}
+
+#indexWelcome h2 {
+  font-size: 55px;
+  color: black;
+  background-color: whitesmoke;
+  font-size: 20px;
+}
+
+.cardProject {
+  width: 18rem;
+  /*height: 80%;*/
+}
+
+.card-img-top {
+  /*height: 420px;*/
+}
+/*
+#indexWelcome markk {
+  background-color: teal;
+  height: 2px;
+}*/
+
+.rowProject {
+  margin-bottom: 15px;
+}
