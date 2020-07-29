@@ -7,15 +7,22 @@
 }
 
 #index {
-  background-image: url("../assets/img/welcome/index3.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin-bottom: 10px;
+  background-color: rgb(255, 215, 188);
+  /*height: 2000px;*/
   /*background-color: rgb(255, 215, 188);*/
-  opacity: 90%;
+
   border-radius: 7px;
   float: right;
   color: black;
-  font-size: 20px;
+  font-size: 20px;*/
+}
+
+.imgLanding {
+  /*width: 1310px;*/
+  /*opacity: 90%;*/
+  filter: grayscale(100%);
+  margin-top: 80px;
 }
 
 #indexWelcome {
@@ -33,18 +40,13 @@
 }
 
 .cardProject {
-  width: 18rem;
+  width: 22rem;
   /*height: 80%;*/
 }
 
 .card-img-top {
   /*height: 420px;*/
 }
-/*
-#indexWelcome markk {
-  background-color: teal;
-  height: 2px;
-}*/
 
 .rowProject {
   margin-bottom: 15px;
