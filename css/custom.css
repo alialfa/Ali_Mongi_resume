@@ -36,12 +36,11 @@
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  color: rgb(108, 9, 138);
+  color: rgb(49, 21, 2);
 }
 
 .card {
   width: 20rem;
-  height: 100%;
 }
 
 .card-title {
