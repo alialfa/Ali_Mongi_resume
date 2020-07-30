@@ -40,8 +40,8 @@
 }
 
 .card {
-  width: 18rem;
-  /*height: 80%;*/
+  width: 20rem;
+  height: 100%;
 }
 
 .card-title {
@@ -65,4 +65,5 @@
 }
 .rowProject {
   margin-bottom: 15px;
+  float: left;
 }
