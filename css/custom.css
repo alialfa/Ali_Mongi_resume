@@ -1,13 +1,18 @@
+/*background-color: rgb(255, 215, 188);*/
+
 .sidebarIconSpace {
   margin-right: 8px;
 }
 
 #landing {
+  /*background-image: url("../assets/images/landing/wallpaper1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
   background-color: rgb(255, 215, 188);
 }
 
 #index {
-  margin-top: 70px;
+  /*margin-top: 70px;*/ /*add if using landing centre image*/
   height: 1065px;
   border-radius: 7px;
   color: black;
@@ -22,18 +27,17 @@
 }
 
 .imgLandingCover {
-  /*width: 1310px;*/
-  /*opacity: 90%;*/
+  width: 1310px;
+  margin-top: -208px;
   filter: grayscale(100%);
-  /*margin-top: 80px;*/
+  opacity: 90%;
 }
 
 .imgLandingCaption {
   margin-top: 15px;
-  font-size: 55px;
-  color: black;
-  display: block;
   text-align: center;
+  font-size: 30px;
+  color: rgb(49, 21, 2);
 }
 
 .cardProject {
