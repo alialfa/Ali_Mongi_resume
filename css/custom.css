@@ -13,7 +13,7 @@
 
 #index {
   /*margin-top: 70px;*/ /*add if using landing centre image*/
-  height: 1065px;
+  /*height: 1065px;*/ /*add if using landing centre image*/
   border-radius: 7px;
   color: black;
   font-size: 20px;
@@ -27,7 +27,8 @@
 }
 
 .imgLandingCover {
-  width: 1310px;
+  /*width: 1310px;*/
+  width: 100%;
   margin-top: -208px;
   filter: grayscale(100%);
   opacity: 90%;
@@ -37,6 +38,7 @@
   margin-top: 15px;
   text-align: center;
   font-size: 30px;
+  font-weight: bold;
   color: rgb(49, 21, 2);
 }
 
