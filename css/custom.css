@@ -10,7 +10,7 @@
   /*background-image: url("../assets/images/landing/wallpaper1.jpg");
   background-repeat: no-repeat;
   background-size: cover;*/
-  /*background-color: rgb(255, 215, 188);*/
+  background-color: rgb(255, 215, 188);
 }
 
 #welcomeIndex {
@@ -24,7 +24,7 @@
   opacity: 100%;
   filter: contrast(70%);
   filter: grayscale(100%);
-  margin-top: 0px;
+  margin-top: -60px;
 }
 
 .imgLandingCenter {
