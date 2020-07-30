@@ -11,24 +11,23 @@
   background-color: rgb(255, 215, 188);
 }
 
-#index {
-  /*margin-top: 70px;*/ /*add if using landing centre image*/
-  /*height: 1065px;*/ /*add if using landing centre image*/
-  border-radius: 7px;
+#welcomeIndex {
   color: black;
   font-size: 20px;
 }
 
-.imgLandingCentre {
-  display: block;
-  margin: auto;
-  width: 600px;
-  filter: grayscale(100%);
+.imgLandingCover {
+  width: 100%;
+  height: auto;
+  /*filter: grayscale(100%);*/
 }
 
-.imgLandingCover {
-  /*width: 1310px;*/ /*add if using landing centre image*/
-  width: 100%;
+.imgLandingCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 60%;
   /*filter: grayscale(100%);*/
 }
 
@@ -37,18 +36,33 @@
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  color: rgb(49, 21, 2);
+  color: rgb(108, 9, 138);
 }
 
-.cardProject {
+.card {
   width: 18rem;
   /*height: 80%;*/
+}
+
+.card-title {
+  color: rgb(2, 51, 51);
+  font-weight: 600;
 }
 
 .card-img-top {
   /*height: 420px;*/
 }
 
+.card-code h5 {
+  float: right;
+  color: rgb(80, 9, 102);
+  font-weight: normal;
+}
+
+.card-link-getcode {
+  float: right;
+  font-weight: bold;
+}
 .rowProject {
   margin-bottom: 15px;
 }

@@ -106,19 +106,20 @@
     <!-- Page Content-->
     <div class="container-fluid p-0">
       <!-- Landing Index-->
-      <section class="resume-sectionn">
+      <!-- to cover the full landing page set image class="imgLandingCover + remove class="resume-section"-->
+      <!-- to center the landing page with a middle image, set image class="imgLandingCenter"-->
+      <section class="resume-sectionn" id="landing">
         <div class="resume-section-content">
-          <div class="containerr" id="landing">
-            <div id="index">
-              <!--<h2 class="imgLandingCaption">
-                Let passion, drive your profession.
-              </h2>-->
-              <img
-                src="./assets/images/welcome/index3-cover.jpg"
-                class="img-fluid img-thumbnaill imgLandingCover"
-                alt="Landing Photo"
-              />
-            </div>
+          <div id="welcomeIndex">
+            <img
+              src="./assets/images/welcome/index3-cover.jpg"
+              class="img-fluid img-thumbnaill imgLandingCover"
+              alt="Landing Welcome Photo"
+            />
+            <h2 class="imgLandingCaption">
+              Let passion, drive your profession.
+            </h2>
+            <hr />
           </div>
         </div>
       </section>
@@ -246,7 +247,83 @@
             <div class="row rowProject">
               <!-- project 1 -->
               <div class="col-sm">
-                <div class="card cardProject">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/images/projects/project_adamsapple.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Adam's Apple: Search API</h5>
+                    <p class="card-text">
+                      Media search engine for music, TV & movies, podcasts
+                      e.t.c. Integrated to iTunes store.
+                    </p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item card-code">
+                      <i class="fas fa-code"></i> <br />
+                      <h5>
+                        REACT client | <br />
+                        NODE + EXPRESS
+                      </h5>
+                    </li>
+                  </ul>
+                  <div class="card-body">
+                    <input
+                      type="button"
+                      value="LIVE DEMO"
+                      class="btn btn-secondary"
+                      onclick="window.open('https://adams-apple.herokuapp.com/')"
+                    />
+                    <a
+                      href="https://github.com/alialfa/iTunes_searchAPI_-adamsapple-"
+                      target="_blank"
+                      class="card-link card-link-getcode"
+                      ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- project 2 -->
+              <div class="col-sm">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/images/projects/project_footieflips.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Footy Flips: Game</h5>
+                    <p class="card-text">
+                      A memory pattern recognition game based on card flips.
+                    </p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item card-code">
+                      <i class="fas fa-code"></i> <br />
+                      <h5>PURE REACT FRONTEND</h5>
+                    </li>
+                  </ul>
+                  <div class="card-body">
+                    <input
+                      type="button"
+                      value="LIVE DEMO"
+                      class="btn btn-secondary"
+                      onclick="window.open('https://footieflips.herokuapp.com/')"
+                    />
+                    <a
+                      href="https://github.com/alialfa/footie_flips"
+                      target="_blank"
+                      class="card-link card-link-getcode"
+                      ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- project 3 -->
+              <div class="col-sm">
+                <div class="card">
                   <img
                     class="card-img-top"
                     src="./assets/images/projects/project_kofyhouse.jpg"
@@ -260,92 +337,23 @@
                     </p>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                      <i class="fas fa-code"></i> <br />HTML | CSS | JS
+                    <li class="list-group-item card-code card-code">
+                      <i class="fas fa-code"></i> <br />
+                      <h5>VANILLA HTML | CSS | JS</h5>
                     </li>
                   </ul>
                   <div class="card-body">
-                    <a
-                      href="https://alialfa.github.io/hosted-kofy_house/"
-                      target="_blank"
-                      class="card-link"
-                      >VIEW LIVE</a
-                    >
+                    <input
+                      type="button"
+                      value="LIVE DEMO"
+                      class="btn btn-secondary"
+                      onclick="window.open('https://alialfa.github.io/hosted-kofy_house/')"
+                    />
                     <a
                       href="https://github.com/alialfa/online-store__kofy-house"
                       target="_blank"
-                      class="card-link"
-                      >SOURCE CODE</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- project 2 -->
-              <div class="col-sm">
-                <div class="card cardProject">
-                  <img
-                    class="card-img-top"
-                    src="./assets/images/projects/project_footieflips.png"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Footy Flips: Game</h5>
-                    <p class="card-text">
-                      A memory pattern recognition game based on card flips.
-                    </p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                      <i class="fas fa-code"></i> <br />REACT
-                    </li>
-                  </ul>
-                  <div class="card-body">
-                    <a
-                      href="https://footieflips.herokuapp.com/"
-                      target="_blank"
-                      class="card-link"
-                      >VIEW LIVE</a
-                    >
-                    <a
-                      href="https://github.com/alialfa/footie_flips"
-                      target="_blank"
-                      class="card-link"
-                      >SOURCE CODE</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- project 3 -->
-              <div class="col-sm">
-                <div class="card cardProject">
-                  <img
-                    class="card-img-top"
-                    src="./assets/images/projects/project_adamsapple.png"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Adam's Apple: Search</h5>
-                    <p class="card-text">
-                      Media search engine integrated with iTunes API.
-                    </p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                      <i class="fas fa-code"></i> <br />REACT | NODE
-                    </li>
-                  </ul>
-                  <div class="card-body">
-                    <a
-                      href="https://adams-apple.herokuapp.com/"
-                      target="_blank"
-                      class="card-link"
-                      >VIEW LIVE</a
-                    >
-                    <a
-                      href="https://github.com/alialfa/iTunes_searchAPI_-adamsapple-"
-                      target="_blank"
-                      class="card-link"
-                      >SOURCE CODE</a
+                      class="card-link card-link-getcode"
+                      ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
                     >
                   </div>
                 </div>
@@ -355,7 +363,7 @@
             <div class="row rowProject">
               <!-- project 4 -->
               <div class="col-sm">
-                <div class="card cardProject">
+                <div class="card">
                   <img
                     class="card-img-top"
                     src="./assets/images/projects/project_weathercentre.png"
@@ -368,19 +376,23 @@
                     </p>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                      <i class="fas fa-code"></i> <br />REACT
+                    <li class="list-group-item card-code">
+                      <i class="fas fa-code"></i> <br />
+                      <h5>REACT</h5>
                     </li>
                   </ul>
                   <div class="card-body">
+                    <input
+                      type="button"
+                      value="LIVE DEMO"
+                      class="btn btn-secondary"
+                      onclick="window.open('https://weathermetro.herokuapp.com')"
+                    />
                     <a
-                      href="https://weathermetro.herokuapp.com/"
+                      href="https://github.com/alialfa/iTunes_searchAPI_-adamsapple-"
                       target="_blank"
-                      class="card-link"
-                      >VIEW LIVE</a
-                    >
-                    <a href="h" target="_blank" class="card-link"
-                      >SOURCE CODE</a
+                      class="card-link card-link-getcode"
+                      ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
                     >
                   </div>
                 </div>
