@@ -27,11 +27,9 @@
 }
 
 .imgLandingCover {
-  /*width: 1310px;*/
+  /*width: 1310px;*/ /*add if using landing centre image*/
   width: 100%;
-  margin-top: -208px;
-  filter: grayscale(100%);
-  opacity: 90%;
+  /*filter: grayscale(100%);*/
 }
 
 .imgLandingCaption {
