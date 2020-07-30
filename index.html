@@ -116,8 +116,15 @@
               class="img-fluid img-thumbnaill imgLandingCover"
               alt="Landing Welcome Photo"
             />
-            <h2 class="imgLandingCaption">
+            <!--<h2 class="imgLandingCaption">
               Let passion, drive your profession.
+            </h2>-->
+            <h2 class="imgLandingCaption">
+              <i
+                >“Tell me & I forget, teach me & I may remember, involve me & I
+                learn”</i
+              >
+              ~ Benjamin Franklin
             </h2>
             <hr />
           </div>
@@ -131,8 +138,13 @@
             <span class="text-primary">Mongi</span>
           </h1>
           <div class="subheading mb-5">
-            2 Glenside Rd, Greenside · Johannesburg, 2196 · (+27) 745-730-889 ·
-            <a href="mailto:alphan.mongi@gmail.com">alphan.mongi@gmail.com</a>
+            2 Glenside Rd, Greenside · Johannesburg, 2196 · (+27)745-730-889
+            ·<br />
+            <a
+              href="mailto:alphan.mongi@gmail.com"
+              style="text-transform: lowercase;"
+              >alphan.mongi@gmail.com</a
+            >
           </div>
           <p class="lead mb-5">
             I am a maturing fullstack software developer. I live, breathe and
@@ -239,204 +251,243 @@
       </section>
       <hr class="m-0" />
       <!-- Projects-->
-      <section class="resume-section" id="projects">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Projects</h2>
-          <div class="container">
-            <!-- 1st project row-->
-            <div class="row rowProject">
-              <!-- project 1 -->
-              <div class="col-sm">
-                <div class="card">
-                  <img
-                    class="card-img-top"
-                    src="./assets/images/projects/project_adamsapple.png"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Adam's Apple: Search API</h5>
-                    <p class="card-text">
-                      Media search engine for music, TV & movies, podcasts
-                      e.t.c. Integrated to iTunes store.
-                    </p>
+      <div id="projects">
+        <section class="resume-section">
+          <div class="resume-section-content">
+            <h2 class="mb-5">Projects</h2>
+            <div class="container">
+              <!-- 1st project row-->
+              <div class="row rowProject">
+                <!-- project 1 -->
+                <div class="col-sm">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/images/projects/project_adamsapple.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Adam's Apple: Search API</h5>
+                      <p class="card-text">
+                        Media search engine for music, TV & movies, podcasts
+                        e.t.c. Integrated to iTunes store.
+                      </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item card-code">
+                        <i class="fas fa-code code-title"></i> <br />
+                        <h5>
+                          REACT client | <br />
+                          NODE + EXPRESS
+                        </h5>
+                      </li>
+                    </ul>
+                    <div class="card-body">
+                      <input
+                        type="button"
+                        value="LIVE DEMO"
+                        class="btn btn-success"
+                        onclick="window.open('https://adams-apple.herokuapp.com/')"
+                      />
+                      <a
+                        href="https://github.com/alialfa/iTunes_searchAPI_-adamsapple-"
+                        target="_blank"
+                        class="card-link card-link-getcode"
+                        ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
+                      >
+                    </div>
                   </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item card-code">
-                      <i class="fas fa-code"></i> <br />
-                      <h5>
-                        REACT client | <br />
-                        NODE + EXPRESS
+                </div>
+                <!-- project 2 -->
+                <div class="col-sm">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/images/projects/project_footieflips.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Footie Flips: Game</h5>
+                      <p class="card-text">
+                        A memory pattern recognition game. Gamers flip
+                        soccer-themed cards & get awarded based consecutively.
+                      </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item card-code">
+                        <i class="fas fa-code code-title"></i> <br />
+                        <h5>PURE REACT FRONTEND</h5>
+                      </li>
+                    </ul>
+                    <div class="card-body">
+                      <input
+                        type="button"
+                        value="LIVE DEMO"
+                        class="btn btn-success"
+                        onclick="window.open('https://footieflips.herokuapp.com/')"
+                      />
+                      <a
+                        href="https://github.com/alialfa/footie_flips"
+                        target="_blank"
+                        class="card-link card-link-getcode"
+                        ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- project 3 -->
+                <div class="col-sm">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/images/projects/project_kofyhouse.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Kofy House: Online Store</h5>
+                      <p class="card-text">
+                        Fictional eCommerce coffee shop selling brewing
+                        machines, beans and books.
+                      </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item card-code card-code">
+                        <i class="fas fa-code code-title"></i>
+                        <br />
+                        <h5>VANILLA HTML | CSS | JS</h5>
+                      </li>
+                    </ul>
+                    <div class="card-body">
+                      <input
+                        type="button"
+                        value="LIVE DEMO"
+                        class="btn btn-success"
+                        onclick="window.open('https://alialfa.github.io/hosted-kofy_house/')"
+                      />
+                      <a
+                        href="https://github.com/alialfa/online-store__kofy-house"
+                        target="_blank"
+                        class="card-link card-link-getcode"
+                        ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 2nd project row-->
+              <div class="row rowProject">
+                <!-- project 4 -->
+                <div class="col-sm">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/images/projects/project_weathercentre.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Weather Metro Centre: Rest API</h5>
+                      <p class="card-text">
+                        Weather retrieval centre for various global cities.
+                      </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item card-code">
+                        <i class="fas fa-code code-title"></i> <br />
+                        <h5>PURE REACT FRONTEND</h5>
+                      </li>
+                    </ul>
+                    <div class="card-body">
+                      <input
+                        type="button"
+                        value="LIVE DEMO"
+                        class="btn btn-success"
+                        onclick="window.open('https://weathermetro.herokuapp.com')"
+                      />
+                      <a
+                        href="https://github.com/alialfa/iTunes_searchAPI_-adamsapple-"
+                        target="_blank"
+                        class="card-link card-link-getcode"
+                        ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- project 5 -->
+                <div class="col-sm">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/images/projects/project_anampharma.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Anam Pharma: Pharmacy Mgmt System
                       </h5>
-                    </li>
-                  </ul>
-                  <div class="card-body">
-                    <input
-                      type="button"
-                      value="LIVE DEMO"
-                      class="btn btn-secondary"
-                      onclick="window.open('https://adams-apple.herokuapp.com/')"
-                    />
-                    <a
-                      href="https://github.com/alialfa/iTunes_searchAPI_-adamsapple-"
-                      target="_blank"
-                      class="card-link card-link-getcode"
-                      ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
-                    >
+                      <p class="card-text">
+                        Used at a rural county hospital with the goal of
+                        automating generation of drug prescription labels. Key
+                        features: patient, employee & supplier administration,
+                        inventory management, stock card controls, report
+                        generation.
+                      </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item card-code">
+                        <i class="fas fa-code code-title"></i> <br />
+                        <h5>MS Winforms | C#</h5>
+                      </li>
+                    </ul>
+                    <div class="card-body">
+                      <a
+                        href="https://github.com/alialfa/anamPharma_Pharmacy-Management-System"
+                        target="_blank"
+                        class="card-link card-link-getcode"
+                        ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
+                      >
+                    </div>
                   </div>
                 </div>
-              </div>
-              <!-- project 2 -->
-              <div class="col-sm">
-                <div class="card">
-                  <img
-                    class="card-img-top"
-                    src="./assets/images/projects/project_footieflips.png"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Footy Flips: Game</h5>
-                    <p class="card-text">
-                      A memory pattern recognition game based on card flips.
-                    </p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item card-code">
-                      <i class="fas fa-code"></i> <br />
-                      <h5>PURE REACT FRONTEND</h5>
-                    </li>
-                  </ul>
-                  <div class="card-body">
-                    <input
-                      type="button"
-                      value="LIVE DEMO"
-                      class="btn btn-secondary"
-                      onclick="window.open('https://footieflips.herokuapp.com/')"
+                <!-- project 6 -->
+                <div class="col-sm">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/images/projects/project_farmbook.png"
+                      alt="Card image cap"
                     />
-                    <a
-                      href="https://github.com/alialfa/footie_flips"
-                      target="_blank"
-                      class="card-link card-link-getcode"
-                      ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- project 3 -->
-              <div class="col-sm">
-                <div class="card">
-                  <img
-                    class="card-img-top"
-                    src="./assets/images/projects/project_kofyhouse.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Kofy House: Online Store</h5>
-                    <p class="card-text">
-                      Fictional eCommerce coffee shop selling brewing machines,
-                      beans and books.
-                    </p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item card-code card-code">
-                      <i class="fas fa-code"></i> <br />
-                      <h5>VANILLA HTML | CSS | JS</h5>
-                    </li>
-                  </ul>
-                  <div class="card-body">
-                    <input
-                      type="button"
-                      value="LIVE DEMO"
-                      class="btn btn-secondary"
-                      onclick="window.open('https://alialfa.github.io/hosted-kofy_house/')"
-                    />
-                    <a
-                      href="https://github.com/alialfa/online-store__kofy-house"
-                      target="_blank"
-                      class="card-link card-link-getcode"
-                      ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- 2nd project row-->
-            <div class="row rowProject">
-              <!-- project 4 -->
-              <div class="col-sm">
-                <div class="card">
-                  <img
-                    class="card-img-top"
-                    src="./assets/images/projects/project_weathercentre.png"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Weather Metro Centre: Rest API</h5>
-                    <p class="card-text">
-                      Weather retrieval centre for various global cities.
-                    </p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item card-code">
-                      <i class="fas fa-code"></i> <br />
-                      <h5>REACT</h5>
-                    </li>
-                  </ul>
-                  <div class="card-body">
-                    <input
-                      type="button"
-                      value="LIVE DEMO"
-                      class="btn btn-secondary"
-                      onclick="window.open('https://weathermetro.herokuapp.com')"
-                    />
-                    <a
-                      href="https://github.com/alialfa/iTunes_searchAPI_-adamsapple-"
-                      target="_blank"
-                      class="card-link card-link-getcode"
-                      ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- project 5 -->
-              <div class="col-sm">
-                <div class="card">
-                  <img
-                    class="card-img-top"
-                    src="./assets/images/projects/project_nextpro.png"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Next Pro</h5>
-                    <p class="card-text">
-                      Next Pro
-                    </p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item card-code">
-                      <i class="fas fa-code"></i> <br />
-                      <h5>Next Pro</h5>
-                    </li>
-                  </ul>
-                  <div class="card-body">
-                    <input
-                      type="button"
-                      value="LIVE DEMO"
-                      class="btn btn-secondary"
-                      onclick="window.open('https://.herokuapp.com/')"
-                    />
-                    <a
-                      href="https://github.com/alialfa/"
-                      target="_blank"
-                      class="card-link card-link-getcode"
-                      ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
-                    >
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Farmbook: "a facebook for farmers"
+                      </h5>
+                      <p class="card-text">
+                        Expert farmer, data hub & community farming app.
+                        Empowers farming enthusiasts with vital practice info.
+                        Social function enables sharing experiences among
+                        farmers.
+                      </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item card-code">
+                        <i class="fas fa-code code-title"></i> <br />
+                        <h5>ASP.NET MVC 4.5 - C#</h5>
+                      </li>
+                    </ul>
+                    <div class="card-body">
+                      <a
+                        href="https://github.com/alialfa/Farmbook"
+                        target="_blank"
+                        class="card-link card-link-getcode"
+                        ><i class="fab fa-github fa-2x"></i>&nbsp;GET CODE</a
+                      >
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <hr class="m-0" />
       <!-- Education-->
       <section class="resume-section" id="education">

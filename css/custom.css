@@ -4,6 +4,8 @@
   margin-right: 8px;
 }
 
+/* landing welcome section */
+
 #landing {
   /*background-image: url("../assets/images/landing/wallpaper1.jpg");
   background-repeat: no-repeat;
@@ -19,7 +21,10 @@
 .imgLandingCover {
   width: 100%;
   height: auto;
-  /*filter: grayscale(100%);*/
+  opacity: 100%;
+  filter: contrast(70%);
+  filter: grayscale(100%);
+  margin-top: -60px;
 }
 
 .imgLandingCenter {
@@ -34,13 +39,20 @@
 .imgLandingCaption {
   margin-top: 15px;
   text-align: center;
-  font-size: 30px;
+  font-size: 16px;
   font-weight: bold;
-  color: rgb(49, 21, 2);
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+}
+
+/* projects section */
+#projects {
+  background-color: rgb(255, 215, 188);
 }
 
 .card {
   width: 20rem;
+  height: 100%;
 }
 
 .card-title {
@@ -50,6 +62,10 @@
 
 .card-img-top {
   /*height: 420px;*/
+}
+
+.code-title {
+  color: teal;
 }
 
 .card-code h5 {
