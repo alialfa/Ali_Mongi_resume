@@ -83,3 +83,11 @@
   margin-bottom: 15px;
   float: left;
 }
+
+#footer {
+  text-align: center;
+}
+
+#footer h6 {
+  color: grey;
+}
