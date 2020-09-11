@@ -51,8 +51,15 @@
   background-color: rgb(255, 215, 188);
 }
 
+.rowProject {
+  /*float: left;*/
+}
+
+.col-sm {
+  margin-bottom: 20px;
+}
 .card {
-  width: 20rem;
+  width: 18rem;
   height: 100%;
 }
 
@@ -78,10 +85,6 @@
 .card-link-getcode {
   float: right;
   font-weight: bold;
-}
-.rowProject {
-  margin-bottom: 15px;
-  float: left;
 }
 
 #footer {
