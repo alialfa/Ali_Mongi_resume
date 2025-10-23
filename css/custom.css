@@ -1,96 +1,47 @@
-/*background-color: rgb(255, 215, 188);*/
+/* Minimal Custom Styles - Tailwind handles most styling */
 
-.sidebarIconSpace {
-  margin-right: 8px;
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
 }
 
-/* landing welcome section */
-
-#landing {
-  /*background-image: url("../assets/images/landing/wallpaper1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;*/
-  /*  background-color: rgb(255, 215, 188);
-  background-color: #bd5d38;*/
+/* Active navigation link */
+.nav-link.active,
+.mobile-nav-link.active {
+  background-color: rgba(189, 93, 56, 0.2);
+  border-left: 4px solid #bd5d38;
 }
 
-#welcomeIndex {
-  color: black;
-  font-size: 20px;
+/* Ensure cover image fills viewport on landing */
+#landing img {
+  min-height: 100vh;
+  object-fit: cover;
 }
 
-.imgLandingCover {
-  width: 100%;
-  height: auto;
-  opacity: 100%;
-  filter: contrast(70%);
-  filter: grayscale(100%);
-  margin-top: 0px;
+/* Smooth transitions */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
-.imgLandingCenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%;
-  width: 60%;
-  /*filter: grayscale(100%);*/
-}
+/* Print styles for resume */
+@media print {
+  nav,
+  footer {
+    display: none !important;
+  }
 
-.imgLandingCaption {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  font-family: cursive;
-}
+  main {
+    margin-left: 0 !important;
+    padding-top: 0 !important;
+  }
 
-/* projects section */
-#projects {
-  background-color: rgb(255, 215, 188);
-}
+  #landing {
+    display: none !important;
+  }
 
-.rowProject {
-  /*float: left;*/
-}
-
-.col-sm {
-  margin-bottom: 20px;
-}
-.card {
-  width: 18rem;
-  height: 100%;
-}
-
-.card-title {
-  color: rgb(2, 51, 51);
-  font-weight: 600;
-}
-
-.card-img-top {
-  /*height: 420px;*/
-}
-
-.code-title {
-  color: teal;
-}
-
-.card-code h5 {
-  float: right;
-  color: rgb(80, 9, 102);
-  font-weight: normal;
-}
-
-.card-link-getcode {
-  float: right;
-  font-weight: bold;
-}
-
-#footer {
-  text-align: center;
-}
-
-#footer h6 {
-  color: grey;
+  section {
+    page-break-inside: avoid;
+  }
 }
